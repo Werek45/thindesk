@@ -1,0 +1,21 @@
+# .env
+
+MONGO_USER=seu_usuario
+MONGO_PASSWORD=sua_senha
+MONGO_HOST=seu_cluster.mongodb.net
+MONGO_DB_NAME=seu_banco_de_dados
+# Arquivos compilados do Java
+/target/
+*.jar
+*.war
+
+# Arquivos de log
+*.log
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+*.iml
+
+# Arquivos do sistema operacional
+.DS_Store

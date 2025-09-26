@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Bem-vindo, <span sec:authentication="name">Usuário</span>!</h1>
+    
+    <p>Esta é a sua área segura.</p>
+
+    <div sec:authorize="hasRole('ADMIN')">
+        <p>Acesso exclusivo para administradores.</p>
+    </div>
+
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html>
