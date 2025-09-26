@@ -85,3 +85,4 @@ Para evoluir o projeto, os próximos passos planejados são:
 * **Controle de Acesso por Perfil:** Implementar páginas de administração (`/admin/**`) acessíveis apenas por usuários com o perfil `ROLE_ADMIN`.
 * **Validação de Formulários:** Adicionar validações nos formulários de registro para garantir a qualidade dos dados (ex: senha forte, e-mail válido).
 * **Página de Perfil:** Criar uma área onde o usuário logado possa visualizar e, futuramente, editar suas informações.
+
